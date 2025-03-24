@@ -12,7 +12,8 @@ import UserGreeting from './UserGreeting'
 import List from './List'
 import NewButton from './NewButton'
 import ProfilePic from './ProfilePic'
-
+import StateDemo from './StateDemo'
+import Counter from './Counter'
 
 function App() {
 
@@ -52,7 +53,8 @@ const animals = [
       {/* <Student />
       <Footer /> */}
       {/* <NewButton /> */}
-      <ProfilePic />
+      {/* <ProfilePic /> */}
+        <Counter />
     </>
   );
 }

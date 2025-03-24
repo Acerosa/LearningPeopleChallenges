@@ -114,3 +114,48 @@ margin: 0%;
   opacity: 0.5;
   transform: scale(0.9);
 }
+
+
+/* Container styling */
+.counter-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light gray background for a clean look */
+  border: 2px solid #ddd; /* Subtle border around the counter container */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 300px;
+  margin: 50px auto; /* Center the container */
+}
+
+/* Display styling */
+.count-display {
+  font-size: 2em; /* Large, bold font for visibility */
+  font-weight: bold;
+  color: #333; /* Dark gray for readability */
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.count-bt {
+  font-size: 1em;
+  padding: 10px 20px; /* Spacious button size */
+  margin: 5px; /* Space between buttons */
+  border: none; /* Clean borderless style */
+  border-radius: 5px; /* Rounded edges for buttons */
+  background-color: #007bff; /* Vibrant blue color */
+  color: white; /* White text for contrast */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle button shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.count-bt:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.1); /* Slight enlargement for visual feedback */
+}
+
+.count-bt:active {
+  background-color: #003f7f; /* Even darker blue when clicked */
+  transform: scale(0.95); /* Slight shrink effect on click */
+}
