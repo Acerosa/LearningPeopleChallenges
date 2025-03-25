@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import PickColour from './ColourPicker'
+import ProductCard from './ProductCard'
 import './App.css'
 
 
@@ -7,7 +7,7 @@ function App() {
   
   return (
     <>
-   
+ 
     </>
   )
 
