@@ -14,6 +14,7 @@ import NewButton from './NewButton'
 import ProfilePic from './ProfilePic'
 import StateDemo from './StateDemo'
 import Counter from './Counter'
+import OnChageDemo from './OnChageDemo'
 
 function App() {
 
@@ -54,7 +55,9 @@ const animals = [
       <Footer /> */}
       {/* <NewButton /> */}
       {/* <ProfilePic /> */}
-        <Counter />
+        {/* <Counter /> */}
+
+        <OnChageDemo />
     </>
   );
 }
