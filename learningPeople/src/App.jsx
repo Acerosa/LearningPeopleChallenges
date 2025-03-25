@@ -15,6 +15,7 @@ import ProfilePic from './ProfilePic'
 import StateDemo from './StateDemo'
 import Counter from './Counter'
 import OnChageDemo from './OnChageDemo'
+import PickColour from './PickCoulor'
 
 function App() {
 
@@ -57,7 +58,8 @@ const animals = [
       {/* <ProfilePic /> */}
         {/* <Counter /> */}
 
-        <OnChageDemo />
+        {/* <OnChageDemo /> */}
+        <PickColour />
     </>
   );
 }
