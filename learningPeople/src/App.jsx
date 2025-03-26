@@ -15,7 +15,7 @@ import ProfilePic from './ProfilePic'
 import StateDemo from './StateDemo'
 import Counter from './Counter'
 import OnChageDemo from './OnChageDemo'
-import PickColour from './PickCoulor'
+import PickColour from './PickColour'
 
 function App() {
 
