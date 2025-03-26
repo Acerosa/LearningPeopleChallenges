@@ -16,18 +16,21 @@ const PickColour = () => {
       </div>
 
       <div>
-        <label>Red: {red}</label>
+        <label>Red: </label>
         <input type="range" min="0" max="255" value={red} onChange={(e) => setRed(Number(e.target.value))} />
+        <input type="number" min="0" max="255" value={red} onChange={(e) => setRed(Number(e.target.value))} />
       </div>
 
       <div>
-        <label>Green: {green}</label>
+        <label>Green: </label>
         <input type="range" min="0" max="255" value={green} onChange={(e) => setGreen(Number(e.target.value))} />
+        <input type="number" min="0" max="255" value={green} onChange={(e) => setGreen(Number(e.target.value))} />
       </div>
 
       <div>
-        <label>Blue: {blue}</label>
+        <label>Blue: </label>
         <input type="range" min="0" max="255" value={blue} onChange={(e) => setBlue(Number(e.target.value))} />
+        <input type="number" min="0" max="255" value={blue} onChange={(e) => setBlue(Number(e.target.value))} />
       </div>
     </div>
   )
