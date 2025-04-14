@@ -2,20 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './Header'
-import Footer from './Footer'
-import Food from './Food'
-import Card from './Card'
-import Me from './assets/me.png'
-import Student from './Student'
-import UserGreeting from './UserGreeting'
-import List from './List'
-import NewButton from './NewButton'
-import ProfilePic from './ProfilePic'
-import StateDemo from './StateDemo'
-import Counter from './Counter'
-import OnChageDemo from './OnChageDemo'
-import PickColour from './PickColour'
+import Car from './UpdateObjects11/UpdateObjects'
+import ProgrammingLanguages from './ArrayUpdateState12/ProgrammingLanguages'
+import AppSettings from './ObjectArrayUpdate13/AppSettings13'
+import ToDoList from './ToDoList14/TodoList'
+import Colours from './UseEffect15/UseEffect'
+
 
 function App() {
 
@@ -59,8 +51,24 @@ const animals = [
         {/* <Counter /> */}
 
         {/* <OnChageDemo /> */}
-        <PickColour />
+        {/* <PickColour /> */}
+        {/* <CounterUpdate /> */}
+
+        {/* <MyCard name="Ricardo Rosa" title="Tutor"  /> */}
+
+        {/* <Car /> */}
+
+        {/* <ProgrammingLanguages /> */}
+
+        {/* <AppSettings /> */}
+
+        {/* <ToDoList /> */}
+
+        <Colours/>
+
     </>
+
+   
   );
 }
 

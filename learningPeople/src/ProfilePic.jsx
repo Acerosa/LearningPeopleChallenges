@@ -7,7 +7,7 @@ const ProfilePic = () => {
         const img = e.target;
         img.classList.add("fade-animation");
 
-        // Remove the animation class after it completes (1.2s in this case)
+
         setTimeout(() => {
             img.classList.remove("fade-animation");
         }, 1200);

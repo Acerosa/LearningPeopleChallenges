@@ -1,0 +1,53 @@
+.use-effect-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #eef2f7;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.use-effect-container h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.use-effect-container p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.use-effect-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.use-effect-container button:hover {
+  background-color: #2980b9;
+}
+
+.use-effect-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+}

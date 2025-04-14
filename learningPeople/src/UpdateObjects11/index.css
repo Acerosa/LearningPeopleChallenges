@@ -1,0 +1,30 @@
+.car-form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.car-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.car-form p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

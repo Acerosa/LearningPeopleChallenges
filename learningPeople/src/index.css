@@ -15,11 +15,11 @@ body{
 }
 
 .cad .card-img{
-max-width: 60%;
-height: auto;
-border-radius: 50%;
-margin-bottom: 10px;
-background-color: rgba(30, 220, 195, 0.73);
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: rgba(30, 220, 195, 0.73);
 }
 
 .card .the-id{
@@ -355,4 +355,10 @@ margin: 0%;
     font-weight: bold;
     color: #979696;
   }
-  
+
+  .draggable-card {
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+  }
+

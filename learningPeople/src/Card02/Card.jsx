@@ -1,4 +1,4 @@
-import Button from "./Button/Button.jsx";
+import Button from "./Button.jsx";
 
 const Card = ({ image, name, description }) => {
   return (

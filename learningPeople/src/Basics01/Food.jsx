@@ -1,3 +1,5 @@
+import "/index.css"
+
 const Food = () => {
 
     const food1 = "Salmon"

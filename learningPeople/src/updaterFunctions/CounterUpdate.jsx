@@ -2,13 +2,15 @@ import { useState } from "react";
 
 
 
-const Counter = ()=> {
+const CounterUpdate = ()=> {
 
     const [count, setCount] = useState(0)
 
-    const increase = () => {
-        setCount(c => c + 1); 
-      };
+    const increase = ()=>{
+            setCount(c => c + 1)
+            setCount(c => c + 1)
+            setCount(c => c + 1)
+    }
 
     const decrease = ()=>{
         setCount(count-1)
@@ -29,4 +31,4 @@ const Counter = ()=> {
 
 
 
-export default Counter
+export default CounterUpdate

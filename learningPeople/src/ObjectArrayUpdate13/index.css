@@ -1,0 +1,70 @@
+/* AppSettings component styling */
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li button {
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: #c0392b;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin: 5px auto;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
