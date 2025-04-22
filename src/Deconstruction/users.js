@@ -1,4 +1,6 @@
-export const users = [
+import { use } from "react";
+
+ const users = [
     {
       nam: "Alison James", 
       age: 32,
@@ -24,3 +26,5 @@ export const users = [
       skills: "Java, Spring" 
     }
   ];
+
+export default users
