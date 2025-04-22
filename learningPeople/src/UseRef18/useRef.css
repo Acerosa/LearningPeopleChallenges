@@ -1,0 +1,53 @@
+body{
+  background-color: azure;
+}
+
+.use-ref-container {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.use-ref-container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.use-ref-container input[type="text"] {
+  padding: 10px;
+  font-size: 1.1em;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* subtle default */
+}
+
+.use-ref-container input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 12px 4px rgba(0, 123, 255, 0.6); /* strong visual focus */
+}
+
+.use-ref-container button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.use-ref-container button:hover {
+  background-color: #0056b3;
+}
+
+.zoom-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}

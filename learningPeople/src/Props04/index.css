@@ -1,0 +1,21 @@
+.student {
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px auto;
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.student p {
+  margin: 6px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.student:hover {
+  background-color: #eef6ff;
+  border-color: #007bff;
+}

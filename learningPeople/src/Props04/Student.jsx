@@ -1,12 +1,18 @@
 import PropTypes from 'prop-types';
+import './index.css'
 
-const Student = (props) => {
+const Student = ({
+    name = "Guest",
+    age = 0,
+    nationality = "From there",
+    isStudent = false
+}) => {
     return (
         <div className="student">
-            <p>Name: {props.name}</p>
-            <p>Age: {props.age}</p>
-            <p>Nationality: {props.nationality}</p>
-            <p>Student: {props.isStudent ? "This is a student" : "Not a student"}</p>
+            <p>Name: {name}</p>
+            <p>Age: {age}</p>
+            <p>Nationality: {nationality}</p>
+            <p>Student: {isStudent ? "This is a student" : "Not a student"}</p>
         </div>
     );
 };
@@ -16,13 +22,6 @@ Student.propTypes = {
     age: PropTypes.number,
     nationality: PropTypes.string,
     isStudent: PropTypes.bool,
-};
-
-Student.defaultProps = {
-    name: "Guest",
-    age: 0,
-    nationality: "From there",
-    isStudent: false,
 };
 
 export default Student;

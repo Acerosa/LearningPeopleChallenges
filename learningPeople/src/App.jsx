@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Car from './UpdateObjects11/UpdateObjects'
@@ -7,7 +6,15 @@ import ProgrammingLanguages from './ArrayUpdateState12/ProgrammingLanguages'
 import AppSettings from './ObjectArrayUpdate13/AppSettings13'
 import ToDoList from './ToDoList14/TodoList'
 import Colours from './UseEffect15/UseEffect'
-
+import DigitalClock from './DigitalClock16/DigitalClock'
+import ThemeExample from './CreateContext17/Them'
+import Magnifier from './UseRef18/UseRef'
+import Card from './Card02/Card'
+import StopWatch from './StopWatch19/StopWatch'
+import Student from './Props04/Student'
+import UserCard from './DeconstructingJS01/UserCard'
+import { users } from './DeconstructingJS01/users'
+import MouseTrackerWithScheduler from './Observables, Observers & Schedulers/Observable'
 
 function App() {
 
@@ -27,6 +34,7 @@ const animals = [
   { id: 5, name: "Tortoise", lifespan: 100 }
 ];
 
+const filteredUsers = users.filter(user => user.skills.includes("React"));
 
   return (
     <>
@@ -36,16 +44,17 @@ const animals = [
         name="Ricardo Rosa"
         description="I'm a private tutor and a software engineer"
       /> */}
-      {/* <Food />
-      <Student name="Rodrigo" age = "this" nationality ="Roman" isStudent ={true}/>
+       {/* <Food /> */}
+      {/* <Student name="Rodrigo" age = "this" nationality ="Roman" isStudent ={true}/>
       <Student name="Maria" age = {30} nationality ="Chinese" isStudent ={true}/>
       <Student name="Maria" age = {30} nationality ="Chinese" isStudent ={true}/>
-      <UserGreeting username="" isLoggedIn={true}/> */}
+      <Student /> */}
+      {/* <UserGreeting username="" isLoggedIn={true}/>  */}
 
       {/* {fruits.length > 0 ? <List items={fruits}  category="Fruits" />: null }
       {animals.length > 0 && <List items={animals} category="Animals" /> } */}
-      {/* <Student />
-      <Footer /> */}
+      
+      {/* <Footer />  */}
       {/* <NewButton /> */}
       {/* <ProfilePic /> */}
         {/* <Counter /> */}
@@ -64,10 +73,31 @@ const animals = [
 
         {/* <ToDoList /> */}
 
-        <Colours/>
+        {/* <DigitalClock/> */}
+        {/* <ThemeExample /> */}
+        {/* <Magnifier /> */}
+        {/* <Card name={"Ricardo"}/> */}
+        {/* <StopWatch /> */}
+      
+      
+      {/* <div className="container">
+      <h1>User Profiles</h1>
+      {users.map((user, index) => (
+        <UserCard key={index} {...user} />
+      ))}
+      </div> */}
 
+      {/* Filtered card */}
+
+    {/* <div className="container">
+      <h1>User Profiles (React developers only)</h1>
+      {filteredUsers.map((user, index) => (
+        <UserCard key={index} {...user} />
+      ))}
+    </div>   */}
+
+    <MouseTrackerWithScheduler />
     </>
-
    
   );
 }
